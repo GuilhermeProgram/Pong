@@ -17,6 +17,16 @@ int contador = 0;
 
 while(pontosA < 5 && pontosB < 5)
 {
+    //ATUALIZAR 
+    bolaX = bolaX + velX;
+    bolaY = bolaY + velY;
+
+    //Mostrar
+    Console.Clear();
+    Console.SetCursorPosition(bolaX, bolaY);
+    Console.Write("O");
+
+
 
     Thread.Sleep(100);
 }
